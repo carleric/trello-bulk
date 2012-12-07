@@ -2,7 +2,9 @@
 <head>
 	<title>Trello-Bulk</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
-	<script src="./jquery-1.8.3.min.js"></script>
+	<script src="./lib/jquery-1.8.3.min.js"></script>
+    <script src="./lib/handlebars-1.0.rc.1.js"></script>
+    <script src="./lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js"></script>
 	<script src="https://api.trello.com/1/client.js?key=c51fad2a1ffd406f468f6f9cccab56be"></script>
 	<script src="./trello-bulk.js"></script>
 
@@ -19,6 +21,16 @@
     </div>
     
     <div id="output"></div>
+
+    <div id="boards"></div>
+    <div id="lists"></div>
+    <div id="labels"></div>
+    <br/>
+    <textarea id="bulk-text"></textarea>
+    <br/>
+    <a id="importBtn" href="#">Import</a>
 </div>   
+
+
 </body> 
 </html>
