@@ -1,11 +1,3 @@
-/*
-	See https://trello.com/docs for a list of available API URLs
-
-	The API development board is at https://trello.com/api
-
-	The &dummy=.js part of the managed resource URL is required per http://doc.jsfiddle.net/basic/introduction.html#add-resources
-	*/
-
 	var onAuthorize = function() {
 	    updateLoggedIn();
 	    $("#output").empty();

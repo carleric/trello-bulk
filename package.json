@@ -1,0 +1,9 @@
+{
+  "name": "trello-bulk",
+  "version": "0.0.1",
+  "author": "Carl Bolstad <cbolstad@gmail.com>",
+  "dependencies": {
+  	"connect": "*"
+  	}
+  	
+  }
