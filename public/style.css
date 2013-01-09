@@ -22,8 +22,30 @@ body {
 	    padding: 4px;
 	}
 
-	.card { 
+	.board, .list, .label { 
 	    display: block; 
 	    padding: 2px;
 	    cursor: pointer;
+	}
+
+	.ui-selecting{ background: #FECA40; }
+   .ui-selected { background: #F39814; color: white; }
+
+	#boards, #lists, #labels {
+		border: 1px solid black;
+		height: 200px;
+		width: 250px;
+		float: left;
+		padding: 3px;
+		margin: 3px;
+		overflow: auto;
+	}
+
+	br {
+		clear: both;
+	}
+
+	#bulk-text{
+		width: 80%;
+		height: 300px;
 	}
